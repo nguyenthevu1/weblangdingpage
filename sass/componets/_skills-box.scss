@@ -1,0 +1,24 @@
+.skill-box{
+    background-color: rgba(white,.8);
+    font-size: 1.5rem;
+    padding: 2.5rem 2.5rem 5rem 2.5rem;
+    text-align: center;
+    border-radius: 5rem;
+    box-shadow: 0 1.5rem 4rem rgba(#000000, .15);
+    
+
+    &_icon{
+        font-size: 6rem;
+        margin-bottom: 1.5rem;
+        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    &:hover{
+        cursor: pointer;
+        transform: translateY(-1.5rem) scale(1.03);
+    }
+
+    transition: all 0.3s;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "weblangdingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "SassToCss": "node-sass --output sass/main.scss css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
